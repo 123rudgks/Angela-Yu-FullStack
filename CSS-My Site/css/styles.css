@@ -1,0 +1,184 @@
+body {
+  margin: 0px;
+
+  text-align: center;
+  /*width set설정된 것은 가운데 정렬안됨*/
+  font-family: 'Roboto', sans-serif;
+  /* verdana 랜더링 해보고 없으면 sans.. */
+  font-weight: bold;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+
+  line-height: 1;
+  font-size: 3rem;
+  font-family: 'New Tegomin', serif;
+  color: #66BFBF;
+  /*
+  width: 10%;
+   margin: 0 auto; /*텍스트 가운데 정렬허눈
+  */
+
+}
+
+h2 {
+  margin: 0;
+  padding: 15px;
+
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #11999E;
+}
+
+p {
+  margin: 0px;
+
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+  margin: 10px 20px;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+img {
+  margin: 20px;
+}
+
+hr {
+  clear: right;
+
+  margin: 100px auto;
+  border: dotted #EAF6F6 6px;
+  border-bottom:none;
+  width: 4%;
+
+
+}
+
+.topDiv {
+  background-color: #EAF6F6;
+  position: relative;
+  /*왜 relative를 해주는 가 ,absolute일때, static일때 와 비교*/
+  padding-top: 100px;
+}
+
+.middleDiv {
+  /*background-color: #cbf1f5;*/
+}
+
+.bottomDiv {
+  padding: 40px 0px 20px;
+  background-color: #66BFBF;
+  line-height: 3rem;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skillsImg {
+  margin-right: 30px;
+  width: 20%;
+  float: left;
+}
+
+.cupcakePng {
+  margin-left: 10px;
+  width: 25%;
+  float: right;
+}
+
+.skills {}
+
+.skill-row {
+  margin: auto;
+  width: 40%;
+  text-align: left;
+
+  line-height: 2;
+}
+
+.profile {
+
+
+}
+
+.contact-me {
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profilePtag{
+  margin: auto;
+  width: 30%;
+}
+.contact-message{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+.copyright{
+  padding: 20px 0px;
+
+  font-size: 0.75rem;
+  color: #EAF6F6;
+
+}
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 300px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

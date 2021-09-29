@@ -1,0 +1,14 @@
+<%- include("partials/header") -%>
+
+<h1>Hello World</h1>
+<p><%= E_homeStartingContent %></p>
+
+<% E_postArr.forEach((post)=>{ %>
+    <h1><%= post.title %></h1>
+    <p>
+        <%= post.content.slice(0,100)+" ... " %>
+        <a href=<%=post.postUrl%>>read more</a>
+    </p>
+<% }); %>
+
+<%- include("partials/footer") -%>

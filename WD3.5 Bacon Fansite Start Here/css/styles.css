@@ -1,0 +1,25 @@
+h1{
+  color: red;
+  font-size: 150%;
+}
+
+body{
+  background-color: gray;
+}
+
+img:hover{
+  height: 150px;
+  background-color: gold;
+}
+
+.bacon{
+  background-color:green;
+}
+
+.cucumber{
+  background-color: red;
+}
+
+#heading{
+  color:orange;
+}

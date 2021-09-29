@@ -1,0 +1,22 @@
+body {
+  background-color: #ffffd2;
+}
+
+hr{
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: #f2edd7;
+  border-width: 5px;
+  width:7%;
+}
+div{
+  padding:8px;
+}
+h1{
+  color:#9e7540;
+}
+h3{
+  font-family: Georgia, serif;
+  font-size: 22px;
+  color:#ffffd2;
+}
